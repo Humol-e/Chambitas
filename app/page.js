@@ -203,7 +203,7 @@ export default function App() {
                 {service.description}
               </p>
 
-              {/* Minutar del Perfil del Oferente */}
+              {/* Miniatura del Perfil del Oferente */}
               <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center border border-gray-200">
@@ -247,7 +247,7 @@ export default function App() {
         <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-200">
           <div className="mb-8">
             <h2 className="text-2xl font-black text-zinc-900">Detalles del Favor</h2>
-            <p className="text-gray-500 mt-1 text-sm">Se claro y específico para atraer a los mejores estudiantes.</p>
+            <p className="text-gray-500 mt-1 text-sm">Sé claro y específico para atraer a los mejores estudiantes.</p>
           </div>
 
           <form onSubmit={(e) => { e.preventDefault(); alert('¡Publicado!'); setCurrentView('home'); }} className="space-y-5">
